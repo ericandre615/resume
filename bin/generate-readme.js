@@ -43,7 +43,7 @@ ${job.description}
 ### :hammer: Skills
 
 ${
-  data.skills.map((skill, i) => (`${skill.skill} - ${skillLevels[skill.level]}${i % 6 == 0 ? '  ' : '' }`)).join('')
+  data.skills.map((skill, i) => (`${skill.skill}  -  ${skillLevels[skill.level]}${i % 4 == 0 ? '  ' : '' }`)).join('')
 }
 
 ### :notebook: Education
