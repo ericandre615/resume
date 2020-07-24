@@ -1,0 +1,13 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Resume builder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:readme": "./bin/generate-readme.js"
+  },
+  "keywords": ["resume"],
+  "author": "Eric Andre <ericandre615@gmail.com>",
+  "license": "NONE"
+}
