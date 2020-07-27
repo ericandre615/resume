@@ -1,4 +1,4 @@
-{
+const resume = {
   "avatar": {
     "url": "https://ericandre.info/_assets/img/avatar.jpg"
   },
@@ -258,4 +258,7 @@
       "referral": "Eric was one of my most trusted team members. On several occasions the Director would introduce Eric as the best JavaScript developer in Nashville. His work ethic, passion for learning, and ability to help other developers is among the best I've seen. He wants to help other developers grow, while also doing the hard work necessary for his own growth. I relied on Eric to provide me honest, non-nonsense input regarding the development team and product and how I could best achieve my objectives. It's rare to find natural leaders that have strong technical knowledge like Eric. I had the pleasure of working with Eric over the course of a four years on multiple projects, and also as a mentor both in and out of the office. Eric always pushes for the highest quality in our applications, by really understanding the clinical needs and matching those needs with his great technical leadership. His strive for excellence and technical insights allowed our teams to conquer many challenges and produce well-received applications. We could always count on Eric's lightheartedness to ease stressful meetings and his focus to keep the everybody on task. Eric has left a powerful and lasting impression at InVivoLink; he would make a great technical and business asset to any team; Eric is a person you can build a team around. He has my highest endorsement."
     }
   ]
-}
+};
+
+export default resume;
+

@@ -1,18 +1,20 @@
 #!/usr/bin/env node
 
-const fs = require('fs');
-const resume = require('../data/resume.json');
+import fs from 'fs';
+import resume from '../data/resume.js';
+import formatDate from '../utils/formatters/date.js';
+import formatPhone from '../utils/formatters/phone.js';
 
 const getByLabel = data => tag => data.find(({ label }) => label.toLowerCase() == tag.toLowerCase());
-const formatPhone = phone => phone;
-const formatDate = date => date;
+const phoneFormat = formatPhone('.');
+const dateFormat = formatDate('M Y');
 const generateMarkdown = data => {
   const skillLevels = {
-    "novice":      ":black_circle: :white_circle: :white_circle: :white_circle: :white_circle:",
-    "beginner":    ":black_circle: :black_circle: :white_circle: :white_circle: :white_circle:",
-    "skillful":    ":black_circle: :black_circle: :black_circle: :white_circle: :white_circle:",
-    "experienced": ":black_circle: :black_circle: :black_circle: :black_circle: :white_circle:",
-    "expert":      ":black_circle: :black_circle: :black_circle: :black_circle: :black_circle:",
+    "novice":      ":large_blue_circle: :white_circle: :white_circle: :white_circle: :white_circle:",
+    "beginner":    ":large_blue_circle: :large_blue_circle: :white_circle: :white_circle: :white_circle:",
+    "skillful":    ":large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: :white_circle:",
+    "experienced": ":large_blue_circle: :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle:",
+    "expert":      ":large_blue_circle: :large_blue_circle: :large_blue_circle: :large_blue_circle: :large_blue_circle:",
   };
   const getSocial = getByLabel(data.socialProfiles);
   const profile = getSocial('profile');
@@ -23,7 +25,7 @@ const generateMarkdown = data => {
 # ${data.firstName} ${data.lastName}
 ## ${data.position}
 
-:telephone_receiver: ${formatPhone(data.phoneNumber)} \| :link: [${profile.url}](${profile.url}) \| :mailbox: <${data.email}> \| :octocat: [${github.url}](${github.url})
+:telephone_receiver: ${phoneFormat(data.phoneNumber)} \\| :link: [${profile.url}](${profile.url}) \\| :mailbox: <${data.email}> \\| :octocat: [${github.url}](${github.url})
 
 ### :memo: Summary
 ${data.profile}
@@ -32,8 +34,7 @@ ${data.profile}
 
 ${
   data.workExperiences.map((job) => (`
-**${job.employer}** \| ${formatDate(job.dateFrom)} &mdash; ${formatDate(job.dateUntil)} \| ${job.location}
-
+**${job.employer}** \\| ${dateFormat(job.dateFrom)} &mdash; ${dateFormat(job.dateUntil)} \\| ${job.location} \
 _${job.title}_
 
 ${job.description}
@@ -43,14 +44,14 @@ ${job.description}
 ### :hammer: Skills
 
 ${
-  data.skills.map((skill, i) => (`${skill.skill}  -  ${skillLevels[skill.level]}${i % 4 == 0 ? '  ' : '' }`)).join('')
+  data.skills.map((skill, i) => (`${skill.skill} ${skillLevels[skill.level]} ${(i + 1) % 3 == 0 ? '  \n' : '' }`)).join('')
 }
 
 ### :notebook: Education
 
 ${
   data.educations.map(education => (`
-_${education.school} \| ${formatDate(education.dateFrom)} &mdash; ${formatDate(education.dateUntil)} \| ${education.location}_
+_${education.school} \\| ${dateFormat(education.dateFrom)} &mdash; ${dateFormat(education.dateUntil)} \\| ${education.location}_
 
 ${education.courses.join(' :small_blue_diamond: ')}
   `)).join('')
