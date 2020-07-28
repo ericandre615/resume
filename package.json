@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:readme": "./bin/generate-readme.js"
+    "build:readme": "./bin/generate-readme.js",
+    "build:template": "./bin/generate-template.js"
   },
   "keywords": ["resume"],
   "author": "Eric Andre <ericandre615@gmail.com>",

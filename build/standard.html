@@ -1,0 +1,212 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Eric Andre Resume</title>
+  <link rel="stylesheet" type="text/css" href="reset.css" />
+  <style>
+    
+  main#resume {
+    width: 210mm;
+    height: 297mm;
+    margin: auto;
+  }
+
+  main#resume header nav ul {
+    display: inline-block;
+    padding: 0;
+  }
+
+  main#resume header nav ul li {
+    display: inline-block;
+  }
+
+  main#resume header h1 {
+    font-size: 24px;
+    margin: .5em 0 .25em 0;
+  }
+
+  main#resume header h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  section h1 {
+    font-size: 20px;
+    margin: 1em 0 .5em 0;
+  }
+
+  section h2 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+  }
+
+  section h3 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 1.5em 0;
+  }
+
+  section#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+  }
+
+  section#skills ul li {
+    flex-grow: 3;
+    width: 33%;
+  }
+
+  section#skills li span.skill-name {
+    width: 100%;
+    display: inline-block;
+  }
+
+  section#skills li span.skill-exp {
+    width: 90%;
+    display: inline-block;
+    color: green;
+    border: 1px solid #eaeaea;
+  }
+
+  section#skills span.skill-progress {
+    display: block;
+    background-color: #09d809; /* light green */
+    color: rgba(0, 0, 0, 0);
+  }
+
+  section#education ul#courses {
+    list-style: none;
+    padding: 0;
+  }
+
+  section#education li.course {
+    margin: .25em 0;
+    display: inline-block;
+    font-size: 14px;
+  }
+
+  section#education li.course::after {
+    content: "\2219";
+  }
+
+  /* print styles */
+  body {
+    -webkit-print-color-adjust: exact !important;
+  }
+  @page { size: auto;  margin: 5mm; }
+
+  </style>
+</head>
+<body>
+  <main id="resume">
+    <div class="container">
+    <header>
+      <h1>Eric Andre</h1>
+      <h2>Software Developer</h2>
+      <nav>
+        <ul>
+          <li>615.430.0009 | </li>
+          <li><a href="mailto:ericandre615@gmail.com">ericandre615@gmail.com</a> | </li>
+          <li><a href="https://ericandre.info">https://ericandre.info</a> | </li>
+          <li><a href="https://github.com/ericandre615">https://github.com/ericandre615</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="summary">
+      <h1>Summary</h1>
+      Hello World! I'm a software developer with a focus on web that has been working professionally for more than 8 years. I enjoy learning about new technologies and languages. I strive to keep up to date with the constantly changing world of web development. Passionate about open source, programming fundamentals, and modular reusable code. I like to teach and help others learn about programming and code.
+    </section>
+    <section id="work">
+      <h1>Work</h1>
+      
+      <h2><strong>InVivoLink</strong> | March 2016 &mdash; December 2019 | Nashville, TN</h2>
+      <h3><em>Software Engineer</em></h3>
+
+      <p>A division of HCA/Healthtrust. Build and maintain software for the healthcare industry. Lead in rebuilding the platform with up to date technology, community standards, and better maintainability. Assist in teaching other developers about the newest language features, tools, libraries, and patterns. Helped to lead an effort that reduced our current code base to ¼ the size while making it more maintainable, more stable, more flexible, and greatly improving users experience.</p>
+        
+      <h2><strong>Phase 3</strong> | December 2014 &mdash; February 2016 | Nashville, TN</h2>
+      <h3><em>Lead Web Developer</em></h3>
+
+      <p>iDesign (previous employer) was acquired by Phase 3 Marketing &amp; Communications. Work together with a small team to create full custom solutions for clients. Manage and develop face paced, deadline intensive projects including websites, web apps, and web based mobile apps.</p>
+        
+      <h2><strong>iDesign</strong> | April 2014 &mdash; December 2014 | Nashville, TN</h2>
+      <h3><em>Web Developer</em></h3>
+
+      <p>Develop and maintain custom websites and applications. Help develop and maintain custom CMS and frameworks. Build and configure tools for internal developer use. &nbsp;Integrate sites with third party APIs. Write and maintain documentation, manage projects with github, and help other developers on the team.</p>
+        
+      <h2><strong>MA2LA</strong> | March 2014 &mdash; April 2014 | Nashville, TN</h2>
+      <h3><em>Web Developer</em></h3>
+
+      <p>Develop client websites using wordpress. Build custom wordpress functionality and plugins.</p>
+        
+    </section>
+    <section id="skills">
+      <h1>Skills</h1>
+      <ul id="skills-list">
+      <li><span class="skill-name">Javascript (ES6+)</span> <span class="skill-exp">
+    <span class="skill-progress 100" style="width:100%;">5</span>
+  </span></li><li><span class="skill-name">NodeJS</span> <span class="skill-exp">
+    <span class="skill-progress 80" style="width:80%;">4</span>
+  </span></li><li><span class="skill-name">HTML</span> <span class="skill-exp">
+    <span class="skill-progress 100" style="width:100%;">5</span>
+  </span></li><li><span class="skill-name">CSS</span> <span class="skill-exp">
+    <span class="skill-progress 80" style="width:80%;">4</span>
+  </span></li><li><span class="skill-name">SQL</span> <span class="skill-exp">
+    <span class="skill-progress 60" style="width:60%;">3</span>
+  </span></li><li><span class="skill-name">Linux</span> <span class="skill-exp">
+    <span class="skill-progress 80" style="width:80%;">4</span>
+  </span></li><li><span class="skill-name">Docker</span> <span class="skill-exp">
+    <span class="skill-progress 60" style="width:60%;">3</span>
+  </span></li><li><span class="skill-name">Cypress.io</span> <span class="skill-exp">
+    <span class="skill-progress 80" style="width:80%;">4</span>
+  </span></li><li><span class="skill-name">Rust</span> <span class="skill-exp">
+    <span class="skill-progress 40" style="width:40%;">2</span>
+  </span></li><li><span class="skill-name">DevTools</span> <span class="skill-exp">
+    <span class="skill-progress 80" style="width:80%;">4</span>
+  </span></li><li><span class="skill-name">Redis</span> <span class="skill-exp">
+    <span class="skill-progress 60" style="width:60%;">3</span>
+  </span></li><li><span class="skill-name">Electron</span> <span class="skill-exp">
+    <span class="skill-progress 60" style="width:60%;">3</span>
+  </span></li><li><span class="skill-name">Nginx</span> <span class="skill-exp">
+    <span class="skill-progress 60" style="width:60%;">3</span>
+  </span></li><li><span class="skill-name">Apache</span> <span class="skill-exp">
+    <span class="skill-progress 60" style="width:60%;">3</span>
+  </span></li><li><span class="skill-name">PHP</span> <span class="skill-exp">
+    <span class="skill-progress 60" style="width:60%;">3</span>
+  </span></li>
+      </ul>
+    </section>
+    <section id="education">
+      <h1>Education</h1>
+      
+          <h2>Watkins College of Art, Design and Film | February 2010 &mdash; February 2014 | Nashville, TN</h2>
+          <ul id="courses">
+          
+              <li class="course">Typography I & II</li>
+            
+              <li class="course">Web Development I - III</li>
+            
+              <li class="course">Web Development HTML5 & CSS3</li>
+            
+              <li class="course">Web Development PHP & MySQL</li>
+            
+              <li class="course">Illustration, Animation, 4D Design</li>
+            
+              <li class="course">Printmaking I & II</li>
+            
+              <li class="course">Graphic Design I & III</li>
+            
+          </ul>
+        
+    </section>
+    </div>
+  </main>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

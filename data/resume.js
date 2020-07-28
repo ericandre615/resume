@@ -34,7 +34,7 @@ const resume = {
       "position": 1
     },
     {
-      "title": "Web Developer",
+      "title": "Lead Web Developer",
       "employer": "Phase 3",
       "location": "Nashville, TN",
       "dateFrom": "Tue, 02 Dec 2014 00:00:00 GMT",
