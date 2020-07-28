@@ -6,6 +6,7 @@ const styles = ({ size }) => `
     width: ${sizes[size].width};
     height: ${sizes[size].height};
     margin: auto;
+    font-family: Arial, sans-serif;
   }
 
   main#resume header nav ul {
