@@ -3,281 +3,210 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Standard Resume</title>
+  <title>Eric Andre Resume</title>
   <link rel="stylesheet" type="text/css" href="reset.css" />
-  <link rel="stylesheet" type="text/css" href="style.css" />
   <style>
     
   main#resume {
     width: 210mm;
     height: 297mm;
+    margin: auto;
   }
+
+  main#resume header nav ul {
+    display: inline-block;
+    padding: 0;
+  }
+
+  main#resume header nav ul li {
+    display: inline-block;
+  }
+
+  main#resume header h1 {
+    font-size: 24px;
+    margin: .5em 0 .25em 0;
+  }
+
+  main#resume header h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  section h1 {
+    font-size: 20px;
+    margin: 1em 0 .5em 0;
+  }
+
+  section h2 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+  }
+
+  section h3 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 1.5em 0;
+  }
+
+  section#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+  }
+
+  section#skills ul li {
+    flex-grow: 3;
+    width: 33%;
+  }
+
+  section#skills li span.skill-name {
+    width: 100%;
+    display: inline-block;
+  }
+
+  section#skills li span.skill-exp {
+    width: 90%;
+    display: inline-block;
+    color: green;
+    border: 1px solid #eaeaea;
+  }
+
+  section#skills span.skill-progress {
+    display: block;
+    background-color: #09d809; /* light green */
+    color: rgba(0, 0, 0, 0);
+  }
+
+  section#education ul#courses {
+    list-style: none;
+    padding: 0;
+  }
+
+  section#education li.course {
+    margin: .25em 0;
+    display: inline-block;
+    font-size: 14px;
+  }
+
+  section#education li.course::after {
+    content: "\2219";
+  }
+
+  /* print styles */
+  body {
+    -webkit-print-color-adjust: exact !important;
+  }
+  @page { size: auto;  margin: 5mm; }
 
   </style>
 </head>
 <body>
   <main id="resume">
-    {
-  "avatar": {
-    "url": "https://ericandre.info/_assets/img/avatar.jpg"
-  },
-  "position": "Software Developer",
-  "firstName": "Eric",
-  "lastName": "Andre",
-  "phoneNumber": "6154300009",
-  "countryName": "USA",
-  "location": "Nashville, TN",
-  "address": null,
-  "postalCode": "37135",
-  "title": "Software Developer",
-  "birthPlace": null,
-  "birthDate": null,
-  "email": "ericandre615@gmail.com",
-  "profile": "Hello World! I'm a software developer with a focus on web that has been working professionally for more than 8 years. I enjoy learning about new technologies and languages. I strive to keep up to date with the constantly changing world of web development. Passionate about open source, programming fundamentals, and modular reusable code. I like to teach and help others learn about programming and code.",
-  "sectionsOrder": [
-    "profile",
-    "workExperiences",
-    "educations",
-    "socialProfiles",
-    "skills"
-  ],
-  "locale": "en",
-  "workExperiences": [
-    {
-      "title": "Software Engineer",
-      "employer": "InVivoLink",
-      "location": "Nashville, TN",
-      "dateFrom": "Wed, 02 Mar 2016 00:00:00 GMT",
-      "dateUntil": "Sun, 22 Dec 2019 00:00:00 GMT",
-      "description": "A division of HCA/Healthtrust. Build and maintain software for the healthcare industry. Lead in rebuilding the platform with up to date technology, community standards, and better maintainability. Assist in teaching other developers about the newest language features, tools, libraries, and patterns. Helped to lead an effort that reduced our current code base to ¼ the size while making it more maintainable, more stable, more flexible, and greatly improving users experience.",
-      "position": 1
-    },
-    {
-      "title": "Web Developer",
-      "employer": "Phase 3",
-      "location": "Nashville, TN",
-      "dateFrom": "Tue, 02 Dec 2014 00:00:00 GMT",
-      "dateUntil": "Tue, 02 Feb 2016 00:00:00 GMT",
-      "description": "iDesign (previous employer) was acquired by Phase 3 Marketing &amp; Communications. Work together with a small team to create full custom solutions for clients. Manage and develop face paced, deadline intensive projects including websites, web apps, and web based mobile apps.",
-      "position": 2
-    },
-    {
-      "title": "Web Developer",
-      "employer": "iDesign",
-      "location": "Nashville, TN",
-      "dateFrom": "Wed, 02 Apr 2014 00:00:00 GMT",
-      "dateUntil": "Tue, 02 Dec 2014 00:00:00 GMT",
-      "description": "Develop and maintain custom websites and applications. Help develop and maintain custom CMS and frameworks. Build and configure tools for internal developer use. &nbsp;Integrate sites with third party APIs. Write and maintain documentation, manage projects with github, and help other developers on the team.",
-      "position": 3
-    },
-    {
-      "title": "Web Developer",
-      "employer": "MA2LA",
-      "location": "Nashville, TN",
-      "dateFrom": "Sun, 02 Mar 2014 00:00:00 GMT",
-      "dateUntil": "Wed, 02 Apr 2014 00:00:00 GMT",
-      "description": "Develop client websites using wordpress. Build custom wordpress functionality and plugins.",
-      "skills": {
-        "primary": [],
-        "secondary": []
-      },
-      "position": 4
-    }
-  ],
-  "educations": [
-    {
-      "school": "Watkins College of Art, Design and Film",
-      "degree": null,
-      "level": null,
-      "location": "Nashville, TN",
-      "dateFrom": "Tue, 02 Feb 2010 00:00:00 GMT",
-      "dateUntil": "Sun, 02 Feb 2014 00:00:00 GMT",
-      "description": "Graphic Design with a focus on Web Development",
-      "courses": [
-        "Typography I & II",
-        "Web Development I - III",
-        "Web Development HTML5 & CSS3",
-        "Web Development PHP & MySQL",
-        "Illustration, Animation, 4D Design",
-        "Printmaking I & II",
-        "Graphic Design I & III"
-      ],
-      "position": 1
-    }
-  ],
-  "skills": [
-    {
-      "id": 1,
-      "skill": "Javascript (ES6+)",
-      "level": "expert",
-      "position": 1
-    },
-    {
-      "id": 2,
-      "skill": "NodeJS",
-      "level": "experienced",
-      "position": 2
-    },
-    {
-      "id": 3,
-      "skill": "HTML",
-      "level": "expert",
-      "position": 3
-    },
-    {
-      "id": 4,
-      "skill": "CSS",
-      "level": "experienced",
-      "position": 4
-    },
-    {
-      "id": 5,
-      "skill": "SQL",
-      "level": "skillful",
-      "position": 5
-    },
-    {
-      "id": 6,
-      "skill": "Linux",
-      "level": "experienced",
-      "position": 6
-    },
-    {
-      "id": 7,
-      "skill": "Docker",
-      "level": "skillful",
-      "position": 7
-    },
-    {
-      "id": 8,
-      "skill": "Cypress.io",
-      "level": "experienced",
-      "position": 8
-    },
-    {
-      "id": 9,
-      "skill": "Rust",
-      "level": "beginner",
-      "position": 9
-    },
-    {
-      "id": 10,
-      "skill": "DevTools",
-      "level": "experienced",
-      "position": 10
-    },
-    {
-      "id": 11,
-      "skill": "Redis",
-      "level": "skillful",
-      "position": 11
-    },
-    {
-      "id": 12,
-      "skill": "Electron",
-      "level": "skillful",
-      "position": 12
-    },
-    {
-      "id": 13,
-      "skill": "Nginx",
-      "level": "skillful",
-      "position": 13
-    },
-    {
-      "id": 98,
-      "skill": "Apache",
-      "level": "skillful",
-      "position": 98
-    },
-    {
-      "id": 99,
-      "skill": "PHP",
-      "level": "skillful",
-      "position": 99
-    }
-  ],
-  "secondarySkills": [
-    {
-      "id": 1,
-      "parent": 1,
-      "skill": "React",
-      "level": "experienced",
-      "position": 1
-    },
-    {
-      "id": 2,
-      "parent": 1,
-      "skill": "Redux",
-      "level": "experienced",
-      "position": 2
-    },
-    {
-      "id": 3,
-      "parent": 1,
-      "skill": "Axios",
-      "level": "experienced",
-      "position": 3
-    },
-    {
-      "id": 4,
-      "parent": 1,
-      "skill": "Jest",
-      "level": "experienced",
-      "position": 4
-    },
-    {
-      "id": 5,
-      "parent": 1,
-      "skill": "AngularJS",
-      "level": "skillful",
-      "position": 5
-    }
-  ],
-  "languages": [],
-  "hobbies": [],
-  "references": [
-    {
-      "id": 1,
-      "position": "Quality Assurance",
-      "firstName": "John",
-      "lastName": "Struble",
-      "company": "Cigna",
-      "relation": "InVivoLink",
-      "phoneNumber": "",
-      "email": "ericandre615@gmail.com",
-      "url": "https://www.linkedin.com/in/jstruble/"
-    }
-  ],
-  "socialProfiles": [
-    {
-      "id": 1,
-      "label": "Profile",
-      "url": "https://ericandre.info",
-      "position": 1
-    },
-    {
-      "id": 2,
-      "label": "Github",
-      "url": "https://github.com/ericandre615",
-      "position": 2
-    },
-    {
-      "id": 3,
-      "label": "LinkedIn",
-      "url": "https://www.linkedin.com/in/eric-andre-76419857/",
-      "position": 3
-    }
-  ],
-  "referrals": [
-    {
-      "id": 1,
-      "referrer": 1,
-      "url": "https://www.linkedin.com/in/eric-andre-76419857/",
-      "referral": "Eric was one of my most trusted team members. On several occasions the Director would introduce Eric as the best JavaScript developer in Nashville. His work ethic, passion for learning, and ability to help other developers is among the best I've seen. He wants to help other developers grow, while also doing the hard work necessary for his own growth. I relied on Eric to provide me honest, non-nonsense input regarding the development team and product and how I could best achieve my objectives. It's rare to find natural leaders that have strong technical knowledge like Eric. I had the pleasure of working with Eric over the course of a four years on multiple projects, and also as a mentor both in and out of the office. Eric always pushes for the highest quality in our applications, by really understanding the clinical needs and matching those needs with his great technical leadership. His strive for excellence and technical insights allowed our teams to conquer many challenges and produce well-received applications. We could always count on Eric's lightheartedness to ease stressful meetings and his focus to keep the everybody on task. Eric has left a powerful and lasting impression at InVivoLink; he would make a great technical and business asset to any team; Eric is a person you can build a team around. He has my highest endorsement."
-    }
-  ]
-} </main>
+    <div class="container">
+    <header>
+      <h1>Eric Andre</h1>
+      <h2>Software Developer</h2>
+      <nav>
+        <ul>
+          <li>615.430.0009 | </li>
+          <li><a href="mailto:ericandre615@gmail.com">ericandre615@gmail.com</a> | </li>
+          <li><a href="https://ericandre.info">https://ericandre.info</a> | </li>
+          <li><a href="https://github.com/ericandre615">https://github.com/ericandre615</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="summary">
+      <h1>Summary</h1>
+      Hello World! I'm a software developer with a focus on web that has been working professionally for more than 8 years. I enjoy learning about new technologies and languages. I strive to keep up to date with the constantly changing world of web development. Passionate about open source, programming fundamentals, and modular reusable code. I like to teach and help others learn about programming and code.
+    </section>
+    <section id="work">
+      <h1>Work</h1>
+      
+      <h2><strong>InVivoLink</strong> | March 2016 &mdash; December 2019 | Nashville, TN</h2>
+      <h3><em>Software Engineer</em></h3>
+
+      <p>A division of HCA/Healthtrust. Build and maintain software for the healthcare industry. Lead in rebuilding the platform with up to date technology, community standards, and better maintainability. Assist in teaching other developers about the newest language features, tools, libraries, and patterns. Helped to lead an effort that reduced our current code base to ¼ the size while making it more maintainable, more stable, more flexible, and greatly improving users experience.</p>
+        
+      <h2><strong>Phase 3</strong> | December 2014 &mdash; February 2016 | Nashville, TN</h2>
+      <h3><em>Lead Web Developer</em></h3>
+
+      <p>iDesign (previous employer) was acquired by Phase 3 Marketing &amp; Communications. Work together with a small team to create full custom solutions for clients. Manage and develop face paced, deadline intensive projects including websites, web apps, and web based mobile apps.</p>
+        
+      <h2><strong>iDesign</strong> | April 2014 &mdash; December 2014 | Nashville, TN</h2>
+      <h3><em>Web Developer</em></h3>
+
+      <p>Develop and maintain custom websites and applications. Help develop and maintain custom CMS and frameworks. Build and configure tools for internal developer use. &nbsp;Integrate sites with third party APIs. Write and maintain documentation, manage projects with github, and help other developers on the team.</p>
+        
+      <h2><strong>MA2LA</strong> | March 2014 &mdash; April 2014 | Nashville, TN</h2>
+      <h3><em>Web Developer</em></h3>
+
+      <p>Develop client websites using wordpress. Build custom wordpress functionality and plugins.</p>
+        
+    </section>
+    <section id="skills">
+      <h1>Skills</h1>
+      <ul id="skills-list">
+      <li><span class="skill-name">Javascript (ES6+)</span> <span class="skill-exp">
+    <span class="skill-progress 100" style="width:100%;">5</span>
+  </span></li><li><span class="skill-name">NodeJS</span> <span class="skill-exp">
+    <span class="skill-progress 80" style="width:80%;">4</span>
+  </span></li><li><span class="skill-name">HTML</span> <span class="skill-exp">
+    <span class="skill-progress 100" style="width:100%;">5</span>
+  </span></li><li><span class="skill-name">CSS</span> <span class="skill-exp">
+    <span class="skill-progress 80" style="width:80%;">4</span>
+  </span></li><li><span class="skill-name">SQL</span> <span class="skill-exp">
+    <span class="skill-progress 60" style="width:60%;">3</span>
+  </span></li><li><span class="skill-name">Linux</span> <span class="skill-exp">
+    <span class="skill-progress 80" style="width:80%;">4</span>
+  </span></li><li><span class="skill-name">Docker</span> <span class="skill-exp">
+    <span class="skill-progress 60" style="width:60%;">3</span>
+  </span></li><li><span class="skill-name">Cypress.io</span> <span class="skill-exp">
+    <span class="skill-progress 80" style="width:80%;">4</span>
+  </span></li><li><span class="skill-name">Rust</span> <span class="skill-exp">
+    <span class="skill-progress 40" style="width:40%;">2</span>
+  </span></li><li><span class="skill-name">DevTools</span> <span class="skill-exp">
+    <span class="skill-progress 80" style="width:80%;">4</span>
+  </span></li><li><span class="skill-name">Redis</span> <span class="skill-exp">
+    <span class="skill-progress 60" style="width:60%;">3</span>
+  </span></li><li><span class="skill-name">Electron</span> <span class="skill-exp">
+    <span class="skill-progress 60" style="width:60%;">3</span>
+  </span></li><li><span class="skill-name">Nginx</span> <span class="skill-exp">
+    <span class="skill-progress 60" style="width:60%;">3</span>
+  </span></li><li><span class="skill-name">Apache</span> <span class="skill-exp">
+    <span class="skill-progress 60" style="width:60%;">3</span>
+  </span></li><li><span class="skill-name">PHP</span> <span class="skill-exp">
+    <span class="skill-progress 60" style="width:60%;">3</span>
+  </span></li>
+      </ul>
+    </section>
+    <section id="education">
+      <h1>Education</h1>
+      
+          <h2>Watkins College of Art, Design and Film | February 2010 &mdash; February 2014 | Nashville, TN</h2>
+          <ul id="courses">
+          
+              <li class="course">Typography I & II</li>
+            
+              <li class="course">Web Development I - III</li>
+            
+              <li class="course">Web Development HTML5 & CSS3</li>
+            
+              <li class="course">Web Development PHP & MySQL</li>
+            
+              <li class="course">Illustration, Animation, 4D Design</li>
+            
+              <li class="course">Printmaking I & II</li>
+            
+              <li class="course">Graphic Design I & III</li>
+            
+          </ul>
+        
+    </section>
+    </div>
+  </main>
   <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
