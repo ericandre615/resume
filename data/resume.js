@@ -30,7 +30,11 @@ const resume = {
       "location": "Nashville, TN",
       "dateFrom": "Wed, 02 Mar 2016 00:00:00 GMT",
       "dateUntil": "Sun, 22 Dec 2019 00:00:00 GMT",
-      "description": "A division of HCA/Healthtrust. Build and maintain software for the healthcare industry. Lead in rebuilding the platform with up to date technology, community standards, and better maintainability. Assist in teaching other developers about the newest language features, tools, libraries, and patterns. Helped to lead an effort that reduced our current code base to ¼ the size while making it more maintainable, more stable, more flexible, and greatly improving users experience.",
+      "description": "A division of HCA/Healthtrust. Build and maintain software for the healthcare industry. Helped to lead an effort that reduced our current code base to ¼ the size while making it more maintainable, more stable, more flexible, and greatly improving user experience. Assist in teaching other developers about the newest language features, tools, libraries, and patterns.",
+      "skills": {
+        "primary": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 13, 15],
+        "secondary": [1, 2, 3, 4, 5, 10, 11, 13, 14, 15, 19, 21, 22, 24, 27, 28, 29, 30, 31, 32, 33, 34, 35, 38, 41]
+      },
       "position": 1
     },
     {
@@ -39,7 +43,11 @@ const resume = {
       "location": "Nashville, TN",
       "dateFrom": "Tue, 02 Dec 2014 00:00:00 GMT",
       "dateUntil": "Tue, 02 Feb 2016 00:00:00 GMT",
-      "description": "iDesign (previous employer) was acquired by Phase 3 Marketing &amp; Communications. Work together with a small team to create full custom solutions for clients. Manage and develop face paced, deadline intensive projects including websites, web apps, and web based mobile apps.",
+      "description": "iDesign (previous employer) was acquired by Phase 3 Marketing &amp; Communications. Work together with a small team to create full custom solutions for clients. Manage and develop fast paced, deadline intensive projects including websites, web apps, and web based mobile apps.",
+      "skills": {
+        "primary": [99, 1, 2, 3, 4, 6, 98],
+        "secondary": [1, 5, 7, 12, 17, 19, 20, 23, 25, 36, 37]
+      },
       "position": 2
     },
     {
@@ -49,6 +57,10 @@ const resume = {
       "dateFrom": "Wed, 02 Apr 2014 00:00:00 GMT",
       "dateUntil": "Tue, 02 Dec 2014 00:00:00 GMT",
       "description": "Develop and maintain custom websites and applications. Help develop and maintain custom CMS and frameworks. Build and configure tools for internal developer use. &nbsp;Integrate sites with third party APIs. Write and maintain documentation, manage projects with github, and help other developers on the team.",
+      "skills": {
+        "primary": [99, 1, 2, 3, 4, 6, 98],
+        "secondary": [1, 5, 6, 7, 8, 9, 12, 17, 18, 20, 26, 36, 37, 39]
+      },
       "position": 3
     },
     {
@@ -59,8 +71,8 @@ const resume = {
       "dateUntil": "Wed, 02 Apr 2014 00:00:00 GMT",
       "description": "Develop client websites using wordpress. Build custom wordpress functionality and plugins.",
       "skills": {
-        "primary": [],
-        "secondary": []
+        "primary": [99, 1, 3, 4, 5, 98],
+        "secondary": [12, 37]
       },
       "position": 4
     }
@@ -89,7 +101,7 @@ const resume = {
   "skills": [
     {
       "id": 1,
-      "skill": "Javascript (ES6+)",
+      "skill": "Javascript",
       "level": "expert",
       "position": 1
     },
@@ -172,6 +184,12 @@ const resume = {
       "position": 98
     },
     {
+      "id": 15,
+      "skill": "Git",
+      "level": "experienced",
+      "position": 15
+    },
+    {
       "id": 99,
       "skill": "PHP",
       "level": "skillful",
@@ -184,6 +202,7 @@ const resume = {
       "parent": 1,
       "skill": "React",
       "level": "experienced",
+      "type": "library",
       "position": 1
     },
     {
@@ -191,6 +210,7 @@ const resume = {
       "parent": 1,
       "skill": "Redux",
       "level": "experienced",
+      "type": "library",
       "position": 2
     },
     {
@@ -198,6 +218,7 @@ const resume = {
       "parent": 1,
       "skill": "Axios",
       "level": "experienced",
+      "type": "library",
       "position": 3
     },
     {
@@ -205,6 +226,7 @@ const resume = {
       "parent": 1,
       "skill": "Jest",
       "level": "experienced",
+      "type": "library",
       "position": 4
     },
     {
@@ -212,11 +234,300 @@ const resume = {
       "parent": 1,
       "skill": "AngularJS",
       "level": "skillful",
+      "type": "library",
       "position": 5
-    }
+    },
+    {
+      "id": 6,
+      "parent": 0,
+      "skill": "Authorize.Net",
+      "level": "skillful",
+      "type": "api",
+      "position": 6
+    },
+    {
+      "id": 7,
+      "parent": 0,
+      "skill": "Paypal",
+      "level": "skillful",
+      "type": "api",
+      "position": 7
+    },
+    {
+      "id": 8,
+      "parent": 1,
+      "skill": "FoxyCart",
+      "level": "skillful",
+      "type": "api",
+      "position": 8
+    },
+    {
+      "id": 9,
+      "parent": 0,
+      "skill": "WebAudio",
+      "level": "beginner",
+      "type": "api",
+      "position": 9
+    },
+    {
+      "id": 10,
+      "parent": 0,
+      "skill": "Azure",
+      "level": "beginner",
+      "type": "api",
+      "position": 10
+    },
+    {
+      "id": 11,
+      "parent": 0,
+      "skill": "AppInsights",
+      "level": "beginner",
+      "type": "api",
+      "position": 11
+    },
+    {
+      "id": 12,
+      "parent": 5,
+      "skill": "MySQL",
+      "level": "skillful",
+      "type": "database",
+      "position": 12
+    },
+    {
+      "id": 13,
+      "parent": 5,
+      "skill": "MSSQL",
+      "level": "skillful",
+      "type": "database",
+      "position": 13
+    },
+    {
+      "id": 14,
+      "parent": 5,
+      "skill": "PostGresSQL",
+      "level": "skillful",
+      "type": "database",
+      "position": 14
+    },
+    {
+      "id": 15,
+      "parent": 0,
+      "skill": "MongoDB",
+      "level": "skillful",
+      "type": "database",
+      "position": 15
+    },
+    {
+      "id": 16,
+      "parent": 0,
+      "skill": "RethinkDB",
+      "level": "skillful",
+      "type": "database",
+      "position": 16
+    },
+    {
+      "id": 17,
+      "parent": 4,
+      "skill": "Less",
+      "level": "skillful",
+      "type": "library",
+      "position": 17
+    },
+    {
+      "id": 18,
+      "parent": 4,
+      "skill": "Sass",
+      "level": "skillful",
+      "type": "library",
+      "position": 18
+    },
+    {
+      "id": 19,
+      "parent": 4,
+      "skill": "Bootstrap",
+      "level": "skillful",
+      "type": "library",
+      "position": 19
+    },
+    {
+      "id": 20,
+      "parent": 1,
+      "skill": "JQuery",
+      "level": "skillful",
+      "type": "library",
+      "position": 20
+    },
+    {
+      "id": 21,
+      "parent": 2,
+      "skill": "Babel",
+      "level": "skillful",
+      "type": "library",
+      "position": 21
+    },
+    {
+      "id": 22,
+      "parent": 2,
+      "skill": "Webpack",
+      "level": "skillful",
+      "type": "library",
+      "position": 22
+    },
+    {
+      "id": 23,
+      "parent": 2,
+      "skill": "Gulp",
+      "level": "skillful",
+      "type": "library",
+      "position": 23
+    },
+    {
+      "id": 24,
+      "parent": 2,
+      "skill": "Grunt",
+      "level": "skillful",
+      "type": "library",
+      "position": 24
+    },
+    {
+      "id": 25,
+      "parent": 2,
+      "skill": "Browserify",
+      "level": "skillful",
+      "type": "library",
+      "position": 25
+    },
+    {
+      "id": 26,
+      "parent": 2,
+      "skill": "Cordova/PhoneGap",
+      "level": "skillful",
+      "type": "library",
+      "position": 26
+    },
+    {
+      "id": 27,
+      "parent": 1,
+      "skill": "Durandal",
+      "level": "skillful",
+      "type": "framework",
+      "position": 27
+    },
+    {
+      "id": 28,
+      "parent": 2,
+      "skill": "Express",
+      "level": "experienced",
+      "type": "framework",
+      "position": 28
+    },
+    {
+      "id": 29,
+      "parent": 2,
+      "skill": "Hapi",
+      "level": "experienced",
+      "type": "framework",
+      "position": 29
+    },
+    {
+      "id": 30,
+      "parent": 2,
+      "skill": "Joi",
+      "level": "experienced",
+      "type": "library",
+      "position": 28
+    },
+    {
+      "id": 31,
+      "parent": 2,
+      "skill": "PM2",
+      "level": "skillful",
+      "type": "tooling",
+      "position": 31
+    },
+    {
+      "id": 32,
+      "parent": 1,
+      "skill": "Eslint",
+      "level": "experienced",
+      "type": "tooling",
+      "position": 32
+    },
+    {
+      "id": 33,
+      "parent": 1,
+      "skill": "Jasmine",
+      "level": "skillful",
+      "type": "library",
+      "position": 33
+    },
+    {
+      "id": 34,
+      "parent": 0,
+      "skill": "ElasticSearch",
+      "level": "skillful",
+      "type": "api",
+      "position": 34
+    },
+    {
+      "id": 35,
+      "parent": 0,
+      "skill": "Kafka",
+      "level": "beginner",
+      "type": "library",
+      "position": 35
+    },
+    {
+      "id": 36,
+      "parent": 99,
+      "skill": "Laravel",
+      "level": "skillful",
+      "type": "framework",
+      "position": 36
+    },
+    {
+      "id": 37,
+      "parent": 99,
+      "skill": "WordPress",
+      "level": "experienced",
+      "type": "frawmework",
+      "position": 37
+    },
+    {
+      "id": 38,
+      "parent": 0,
+      "skill": "Jenkins",
+      "level": "skillful",
+      "type": "ci",
+      "position": 38
+    },
+    {
+      "id": 39,
+      "parent": 0,
+      "skill": "Vagrant",
+      "level": "skillful",
+      "type": "vm",
+      "position": 39
+    },
+    {
+      "id": 40,
+      "parent": 0,
+      "skill": "VirtualBox",
+      "level": "skillful",
+      "type": "vm",
+      "position": 40
+    },
+    {
+      "id": 41,
+      "parent": 0,
+      "skill": "VMWare",
+      "level": "skillful",
+      "type": "vm",
+      "position": 41
+    },
   ],
-  "languages": [],
-  "hobbies": [],
+  "languages": ["English", "Japanese"],
+  "hobbies": ["Music", "Synthesizers", "Art", "Design", "Video Games"],
   "references": [
     {
       "id": 1,
@@ -248,6 +559,12 @@ const resume = {
       "label": "LinkedIn",
       "url": "https://www.linkedin.com/in/eric-andre-76419857/",
       "position": 3
+    },
+    {
+      "id": 4,
+      "label": "SoundCloud",
+      "url": "https://soundcloud.com/subroutine615",
+      "position": 4
     }
   ],
   "referrals": [

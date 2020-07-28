@@ -1,0 +1,432 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Eric Andre Resume</title>
+  <link rel="stylesheet" type="text/css" href="reset.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <style>
+    
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: gray;
+  }
+
+  main#resume {
+    width: 210mm;
+    height: 297mm;
+    margin: auto;
+    background-color: white;
+    font-family: Roboto, sans-serif;
+  }
+
+  main#resume p {
+    font-size: 14px;
+  }
+
+  main#resume header {
+    text-align: center;
+  }
+
+  main#resume header nav ul {
+    display: inline-block;
+    padding: 0;
+    margin-bottom: .25em;
+  }
+
+  main#resume header nav ul li {
+    display: inline-block;
+  }
+
+  main#resume header h1 {
+    font-size: 27px;
+    font-weight: 100;
+    margin: 0 0 .25em 0;
+  }
+
+  main#resume header h2 {
+    font-size: 14px;
+    font-weight: 100;
+    margin: 0;
+  }
+
+  section h1 {
+    font-size: 20px;
+    margin: 1em 0 .16em 0;
+    font-weight: 500;
+  }
+
+  section h2 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+  }
+
+  section h3 {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 0 1em 0;
+  }
+
+  .container {
+    padding: 1.75em 1.75em 0 1.75em;
+  }
+
+  #content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+  }
+
+  #sections {
+    width: 80%;
+    flex: 4;
+    margin: 0 0 0 1.5em;
+  }
+
+  #sections hr {
+    margin-top: 0;
+  }
+
+  #content aside {
+    width: 20%;
+    flex: 1;
+  }
+
+  section#skills ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  section#skills ul li {
+    width: 100%;
+  }
+
+  section#skills li span.skill-name {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: .25em;
+  }
+
+  section#skills li span.skill-exp {
+    width: 90%;
+    display: inline-block;
+    color: green;
+    border: 1px solid #909090; /* light gray */
+  }
+
+  section#skills span.skill-progress {
+    display: block;
+    background-color: #919192; /* light blue gray */
+    color: rgba(0, 0, 0, 0);
+    height: 6px;
+  }
+
+  section#education ul#courses, section#work ul.skills-work {
+    list-style: none;
+    padding: 0;
+    font-size: 12px;
+  }
+
+  section#education li.course, section#work li.skill-item {
+    margin: .25em 0;
+    display: inline-block;
+  }
+
+  section#education li.course:not(:last-child):after, section#work li.skill-item:not(:last-child):after {
+    content: " \2219 ";
+  }
+
+  /* print styles */
+  body {
+    -webkit-print-color-adjust: exact !important;
+  }
+  @page { size: auto;  margin: 0; }
+
+  </style>
+</head>
+<body>
+  <main id="resume">
+    <div class="container">
+    <header>
+      <h1>Eric Andre</h1>
+      <h2>Software Developer</h2>
+      <nav>
+        <ul>
+          <li>615.430.0009 | </li>
+          <li><a href="mailto:ericandre615@gmail.com">ericandre615@gmail.com</a> | </li>
+          <li><a href="https://ericandre.info">https://ericandre.info</a> | </li>
+          <li><a href="https://github.com/ericandre615">https://github.com/ericandre615</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+    <div id="content">
+      <div id="sections">
+        <section id="summary">
+          <h1>Summary</h1>
+          <hr />
+          <p>Hello World! I'm a software developer with a focus on web that has been working professionally for more than 8 years. I enjoy learning about new technologies and languages. I strive to keep up to date with the constantly changing world of web development. Passionate about open source, programming fundamentals, and modular reusable code. I like to teach and help others learn about programming and code.</p>
+        </section>
+        <section id="work">
+          <h1>Work</h1>
+          <hr />
+          
+          <h2><strong>InVivoLink</strong> | March 2016 &mdash; December 2019 | Nashville, TN</h2>
+          <h3><em>Software Engineer</em></h3>
+
+          <p>A division of HCA/Healthtrust. Build and maintain software for the healthcare industry. Helped to lead an effort that reduced our current code base to ¼ the size while making it more maintainable, more stable, more flexible, and greatly improving user experience. Assist in teaching other developers about the newest language features, tools, libraries, and patterns.</p>
+
+          <ul class="skills-work">
+          
+              <li class="skill-item primary">Javascript</li>
+            
+              <li class="skill-item primary">NodeJS</li>
+            
+              <li class="skill-item primary">HTML</li>
+            
+              <li class="skill-item primary">CSS</li>
+            
+              <li class="skill-item primary">SQL</li>
+            
+              <li class="skill-item primary">Linux</li>
+            
+              <li class="skill-item primary">Docker</li>
+            
+              <li class="skill-item primary">Cypress.io</li>
+            
+              <li class="skill-item primary">DevTools</li>
+            
+              <li class="skill-item primary">Redis</li>
+            
+              <li class="skill-item primary">Nginx</li>
+            
+              <li class="skill-item primary">Git</li>
+            
+          
+              <li class="skill-item secondary">React</li>
+            
+              <li class="skill-item secondary">Redux</li>
+            
+              <li class="skill-item secondary">Axios</li>
+            
+              <li class="skill-item secondary">Jest</li>
+            
+              <li class="skill-item secondary">AngularJS</li>
+            
+              <li class="skill-item secondary">Azure</li>
+            
+              <li class="skill-item secondary">AppInsights</li>
+            
+              <li class="skill-item secondary">MSSQL</li>
+            
+              <li class="skill-item secondary">PostGresSQL</li>
+            
+              <li class="skill-item secondary">MongoDB</li>
+            
+              <li class="skill-item secondary">Bootstrap</li>
+            
+              <li class="skill-item secondary">Babel</li>
+            
+              <li class="skill-item secondary">Webpack</li>
+            
+              <li class="skill-item secondary">Grunt</li>
+            
+              <li class="skill-item secondary">Durandal</li>
+            
+              <li class="skill-item secondary">Express</li>
+            
+              <li class="skill-item secondary">Hapi</li>
+            
+              <li class="skill-item secondary">Joi</li>
+            
+              <li class="skill-item secondary">PM2</li>
+            
+              <li class="skill-item secondary">Eslint</li>
+            
+              <li class="skill-item secondary">Jasmine</li>
+            
+              <li class="skill-item secondary">ElasticSearch</li>
+            
+              <li class="skill-item secondary">Kafka</li>
+            
+              <li class="skill-item secondary">Jenkins</li>
+            
+              <li class="skill-item secondary">VMWare</li>
+            
+          </ul>
+            
+          <h2><strong>Phase 3</strong> | December 2014 &mdash; February 2016 | Nashville, TN</h2>
+          <h3><em>Lead Web Developer</em></h3>
+
+          <p>iDesign (previous employer) was acquired by Phase 3 Marketing &amp; Communications. Work together with a small team to create full custom solutions for clients. Manage and develop fast paced, deadline intensive projects including websites, web apps, and web based mobile apps.</p>
+
+          <ul class="skills-work">
+          
+              <li class="skill-item primary">PHP</li>
+            
+              <li class="skill-item primary">Javascript</li>
+            
+              <li class="skill-item primary">NodeJS</li>
+            
+              <li class="skill-item primary">HTML</li>
+            
+              <li class="skill-item primary">CSS</li>
+            
+              <li class="skill-item primary">Linux</li>
+            
+              <li class="skill-item primary">Apache</li>
+            
+          
+              <li class="skill-item secondary">React</li>
+            
+              <li class="skill-item secondary">AngularJS</li>
+            
+              <li class="skill-item secondary">Paypal</li>
+            
+              <li class="skill-item secondary">MySQL</li>
+            
+              <li class="skill-item secondary">Less</li>
+            
+              <li class="skill-item secondary">Bootstrap</li>
+            
+              <li class="skill-item secondary">JQuery</li>
+            
+              <li class="skill-item secondary">Gulp</li>
+            
+              <li class="skill-item secondary">Browserify</li>
+            
+              <li class="skill-item secondary">Laravel</li>
+            
+              <li class="skill-item secondary">WordPress</li>
+            
+          </ul>
+            
+          <h2><strong>iDesign</strong> | April 2014 &mdash; December 2014 | Nashville, TN</h2>
+          <h3><em>Web Developer</em></h3>
+
+          <p>Develop and maintain custom websites and applications. Help develop and maintain custom CMS and frameworks. Build and configure tools for internal developer use. &nbsp;Integrate sites with third party APIs. Write and maintain documentation, manage projects with github, and help other developers on the team.</p>
+
+          <ul class="skills-work">
+          
+              <li class="skill-item primary">PHP</li>
+            
+              <li class="skill-item primary">Javascript</li>
+            
+              <li class="skill-item primary">NodeJS</li>
+            
+              <li class="skill-item primary">HTML</li>
+            
+              <li class="skill-item primary">CSS</li>
+            
+              <li class="skill-item primary">Linux</li>
+            
+              <li class="skill-item primary">Apache</li>
+            
+          
+              <li class="skill-item secondary">React</li>
+            
+              <li class="skill-item secondary">AngularJS</li>
+            
+              <li class="skill-item secondary">Authorize.Net</li>
+            
+              <li class="skill-item secondary">Paypal</li>
+            
+              <li class="skill-item secondary">FoxyCart</li>
+            
+              <li class="skill-item secondary">WebAudio</li>
+            
+              <li class="skill-item secondary">MySQL</li>
+            
+              <li class="skill-item secondary">Less</li>
+            
+              <li class="skill-item secondary">Sass</li>
+            
+              <li class="skill-item secondary">JQuery</li>
+            
+              <li class="skill-item secondary">Cordova/PhoneGap</li>
+            
+              <li class="skill-item secondary">Laravel</li>
+            
+              <li class="skill-item secondary">WordPress</li>
+            
+              <li class="skill-item secondary">Vagrant</li>
+            
+          </ul>
+            
+        </section>
+        <section id="education">
+          <h1>Education</h1>
+          <hr />
+          
+              <h2><strong>Watkins College of Art, Design and Film</strong> | February 2010 &mdash; February 2014 | Nashville, TN</h2>
+              <ul id="courses">
+              
+                  <li class="course">Typography I & II</li>
+                
+                  <li class="course">Web Development I - III</li>
+                
+                  <li class="course">Web Development HTML5 & CSS3</li>
+                
+                  <li class="course">Web Development PHP & MySQL</li>
+                
+                  <li class="course">Illustration, Animation, 4D Design</li>
+                
+                  <li class="course">Printmaking I & II</li>
+                
+                  <li class="course">Graphic Design I & III</li>
+                
+              </ul>
+            
+        </section>
+      </div>
+      <aside>
+        <section id="skills">
+          <h1>Skills</h1>
+          <ul id="skills-list">
+          <li><span class="skill-name">Javascript</span> <span class="skill-exp">
+    <span class="skill-progress 100" style="width:100%;">5</span>
+  </span></li><li><span class="skill-name">NodeJS</span> <span class="skill-exp">
+    <span class="skill-progress 80" style="width:80%;">4</span>
+  </span></li><li><span class="skill-name">HTML</span> <span class="skill-exp">
+    <span class="skill-progress 100" style="width:100%;">5</span>
+  </span></li><li><span class="skill-name">CSS</span> <span class="skill-exp">
+    <span class="skill-progress 80" style="width:80%;">4</span>
+  </span></li><li><span class="skill-name">SQL</span> <span class="skill-exp">
+    <span class="skill-progress 60" style="width:60%;">3</span>
+  </span></li><li><span class="skill-name">Linux</span> <span class="skill-exp">
+    <span class="skill-progress 80" style="width:80%;">4</span>
+  </span></li><li><span class="skill-name">Docker</span> <span class="skill-exp">
+    <span class="skill-progress 60" style="width:60%;">3</span>
+  </span></li><li><span class="skill-name">Cypress.io</span> <span class="skill-exp">
+    <span class="skill-progress 80" style="width:80%;">4</span>
+  </span></li><li><span class="skill-name">Rust</span> <span class="skill-exp">
+    <span class="skill-progress 40" style="width:40%;">2</span>
+  </span></li><li><span class="skill-name">DevTools</span> <span class="skill-exp">
+    <span class="skill-progress 80" style="width:80%;">4</span>
+  </span></li><li><span class="skill-name">Redis</span> <span class="skill-exp">
+    <span class="skill-progress 60" style="width:60%;">3</span>
+  </span></li><li><span class="skill-name">Electron</span> <span class="skill-exp">
+    <span class="skill-progress 60" style="width:60%;">3</span>
+  </span></li><li><span class="skill-name">Nginx</span> <span class="skill-exp">
+    <span class="skill-progress 60" style="width:60%;">3</span>
+  </span></li><li><span class="skill-name">Apache</span> <span class="skill-exp">
+    <span class="skill-progress 60" style="width:60%;">3</span>
+  </span></li><li><span class="skill-name">Git</span> <span class="skill-exp">
+    <span class="skill-progress 80" style="width:80%;">4</span>
+  </span></li><li><span class="skill-name">PHP</span> <span class="skill-exp">
+    <span class="skill-progress 60" style="width:60%;">3</span>
+  </span></li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+    </div>
+  </main>
+</body>
+</html>

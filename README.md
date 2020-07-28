@@ -13,11 +13,11 @@ Hello World! I'm a software developer with a focus on web that has been working 
 
 **InVivoLink** \| March 2016 &mdash; December 2019 \| Nashville, TN _Software Engineer_
 
-A division of HCA/Healthtrust. Build and maintain software for the healthcare industry. Lead in rebuilding the platform with up to date technology, community standards, and better maintainability. Assist in teaching other developers about the newest language features, tools, libraries, and patterns. Helped to lead an effort that reduced our current code base to ¼ the size while making it more maintainable, more stable, more flexible, and greatly improving users experience.
+A division of HCA/Healthtrust. Build and maintain software for the healthcare industry. Helped to lead an effort that reduced our current code base to ¼ the size while making it more maintainable, more stable, more flexible, and greatly improving user experience. Assist in teaching other developers about the newest language features, tools, libraries, and patterns.
   
-**Phase 3** \| December 2014 &mdash; February 2016 \| Nashville, TN _Web Developer_
+**Phase 3** \| December 2014 &mdash; February 2016 \| Nashville, TN _Lead Web Developer_
 
-iDesign (previous employer) was acquired by Phase 3 Marketing &amp; Communications. Work together with a small team to create full custom solutions for clients. Manage and develop face paced, deadline intensive projects including websites, web apps, and web based mobile apps.
+iDesign (previous employer) was acquired by Phase 3 Marketing &amp; Communications. Work together with a small team to create full custom solutions for clients. Manage and develop fast paced, deadline intensive projects including websites, web apps, and web based mobile apps.
   
 **iDesign** \| April 2014 &mdash; December 2014 \| Nashville, TN _Web Developer_
 
@@ -30,12 +30,12 @@ Develop client websites using wordpress. Build custom wordpress functionality an
 
 ### :hammer: Skills
 
-Javascript (ES6+) :large_blue_circle: :large_blue_circle: :large_blue_circle: :large_blue_circle: :large_blue_circle: NodeJS :large_blue_circle: :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: HTML :large_blue_circle: :large_blue_circle: :large_blue_circle: :large_blue_circle: :large_blue_circle:   
+Javascript :large_blue_circle: :large_blue_circle: :large_blue_circle: :large_blue_circle: :large_blue_circle: NodeJS :large_blue_circle: :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: HTML :large_blue_circle: :large_blue_circle: :large_blue_circle: :large_blue_circle: :large_blue_circle:   
 CSS :large_blue_circle: :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: SQL :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: :white_circle: Linux :large_blue_circle: :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle:   
 Docker :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: :white_circle: Cypress.io :large_blue_circle: :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: Rust :large_blue_circle: :large_blue_circle: :white_circle: :white_circle: :white_circle:   
 DevTools :large_blue_circle: :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: Redis :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: :white_circle: Electron :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: :white_circle:   
-Nginx :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: :white_circle: Apache :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: :white_circle: PHP :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: :white_circle:   
-
+Nginx :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: :white_circle: Apache :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: :white_circle: Git :large_blue_circle: :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle:   
+PHP :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: :white_circle: 
 
 ### :notebook: Education
 
