@@ -7,9 +7,9 @@
   "lastName": "Andre",
   "phoneNumber": "6154300009",
   "countryName": "USA",
-  "location": "Nashville, TN",
+  "location": "Columbus, OH",
   "address": null,
-  "postalCode": "37135",
+  "postalCode": "43040",
   "title": "Software Developer",
   "birthPlace": null,
   "birthDate": null,
@@ -25,6 +25,32 @@
   "locale": "en",
   "workExperiences": [
     {
+      "title": "Senior Software Engineer",
+      "employer": "Cross River",
+      "location": "Remote",
+      "dateFrom": "",
+      "dateUntil": "",
+      "description": "",
+      "skills": {
+        "primary": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 13, 15],
+        "secondary": [1, 2, 3, 4, 5, 10, 11, 13, 14, 15, 19, 21, 22, 24, 27, 28, 29, 30, 31, 32, 33, 34, 35, 38, 41]
+      },
+      "position": 1
+    },
+    {
+      "title": "Consultant [Senior Software Developer]",
+      "employer": "Afterman Software",
+      "location": "Remote",
+      "dateFrom": "",
+      "dateUntil": "",
+      "description": "",
+      "skills": {
+        "primary": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 13, 15],
+        "secondary": [1, 2, 3, 4, 5, 10, 11, 13, 14, 15, 19, 21, 22, 24, 27, 28, 29, 30, 31, 32, 33, 34, 35, 38, 41]
+      },
+      "position": 2
+    },
+    {
       "title": "Software Engineer",
       "employer": "InVivoLink",
       "location": "Nashville, TN",
@@ -35,7 +61,7 @@
         "primary": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 13, 15],
         "secondary": [1, 2, 3, 4, 5, 10, 11, 13, 14, 15, 19, 21, 22, 24, 27, 28, 29, 30, 31, 32, 33, 34, 35, 38, 41]
       },
-      "position": 1
+      "position": 3
     },
     {
       "title": "Lead Web Developer",
@@ -48,7 +74,7 @@
         "primary": [99, 1, 2, 3, 4, 6, 98],
         "secondary": [1, 5, 7, 12, 17, 19, 20, 23, 25, 36, 37]
       },
-      "position": 2
+      "position": 4
     },
     {
       "title": "Web Developer",
@@ -61,7 +87,7 @@
         "primary": [99, 1, 2, 3, 4, 6, 98],
         "secondary": [1, 5, 6, 7, 8, 9, 12, 17, 18, 20, 26, 36, 37, 39]
       },
-      "position": 3
+      "position": 5
     },
     {
       "title": "Web Developer",
@@ -74,7 +100,7 @@
         "primary": [99, 1, 3, 4, 5, 98],
         "secondary": [12, 37]
       },
-      "position": 4
+      "position": 6
     }
   ],
   "educations": [
