@@ -11,6 +11,14 @@ Hello World! I'm a software developer with a focus on web that has been working 
 ### :computer: Work
 
 
+**Cross River** \| March 2022 &mdash; October 2023 \| Remote _Senior Software Engineer_
+
+Worked as a senior software engineer on various banking and fin-tech products. Design and produce various projects and maintained existing projects using React and FeathersJS. This included various other related task including devops and package management with Docker and Github. I was asked to come on to Cross River full time through my consultant work with Afterman.
+  
+**Afterman Software** \| April 2021 &mdash; March 2022 \| Remote _Consultant [Senior Software Developer]_
+
+Worked as a software developer consultant. Conducted interviews for new conslutants. Provide services for clients on software projects. Left Afterman to go full time with the Cross River client.
+  
 **InVivoLink** \| March 2016 &mdash; December 2019 \| Nashville, TN _Software Engineer_
 
 A division of HCA/Healthtrust. Build and maintain software for the healthcare industry. Helped to lead an effort that reduced our current code base to ¼ the size while making it more maintainable, more stable, more flexible, and greatly improving user experience. Assist in teaching other developers about the newest language features, tools, libraries, and patterns.

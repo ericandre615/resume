@@ -7,9 +7,9 @@ const resume = {
   "lastName": "Andre",
   "phoneNumber": "6154300009",
   "countryName": "USA",
-  "location": "Nashville, TN",
+  "location": "Columbus, OH",
   "address": null,
-  "postalCode": "37135",
+  "postalCode": "43040",
   "title": "Software Developer",
   "birthPlace": null,
   "birthDate": null,
@@ -25,6 +25,32 @@ const resume = {
   "locale": "en",
   "workExperiences": [
     {
+      "title": "Senior Software Engineer",
+      "employer": "Cross River",
+      "location": "Remote",
+      "dateFrom": "Tue, 22 Mar 2022 05:00:00 GMT",
+      "dateUntil": "Wed, 25 Oct 2023 05:00:00 GMT",
+      "description": "Worked as a senior software engineer on various banking and fin-tech products. Design and produce various projects and maintained existing projects using React and FeathersJS. This included various other related task including devops and package management with Docker and Github. I was asked to come on to Cross River full time through my consultant work with Afterman.",
+      "skills": {
+        "primary": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 13, 15],
+        "secondary": [1, 2, 3, 4, 14, 18, 21, 22, 42, 43]
+      },
+      "position": 1
+    },
+    {
+      "title": "Consultant [Senior Software Developer]",
+      "employer": "Afterman Software",
+      "location": "Remote",
+      "dateFrom": "Thu, 15 Apr 2021 05:00:00 GMT",
+      "dateUntil": "Tue, 22 Mar 2022 05:00:00 GMT",
+      "description": "Worked as a software developer consultant. Conducted interviews for new conslutants. Provide services for clients on software projects. Left Afterman to go full time with the Cross River client.",
+      "skills": {
+        "primary": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 13, 15],
+        "secondary": [1, 2, 3, 4, 14, 18, 21, 22, 42, 43]
+      },
+      "position": 2
+    },
+    {
       "title": "Software Engineer",
       "employer": "InVivoLink",
       "location": "Nashville, TN",
@@ -35,7 +61,7 @@ const resume = {
         "primary": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 13, 15],
         "secondary": [1, 2, 3, 4, 5, 10, 11, 13, 14, 15, 19, 21, 22, 24, 27, 28, 29, 30, 31, 32, 33, 34, 35, 38, 41]
       },
-      "position": 1
+      "position": 3
     },
     {
       "title": "Lead Web Developer",
@@ -48,7 +74,7 @@ const resume = {
         "primary": [99, 1, 2, 3, 4, 6, 98],
         "secondary": [1, 5, 7, 12, 17, 19, 20, 23, 25, 36, 37]
       },
-      "position": 2
+      "position": 4
     },
     {
       "title": "Web Developer",
@@ -61,7 +87,7 @@ const resume = {
         "primary": [99, 1, 2, 3, 4, 6, 98],
         "secondary": [1, 5, 6, 7, 8, 9, 12, 17, 18, 20, 26, 36, 37, 39]
       },
-      "position": 3
+      "position": 5
     },
     {
       "title": "Web Developer",
@@ -74,7 +100,7 @@ const resume = {
         "primary": [99, 1, 3, 4, 5, 98],
         "secondary": [12, 37]
       },
-      "position": 4
+      "position": 6
     }
   ],
   "educations": [
@@ -304,7 +330,7 @@ const resume = {
     {
       "id": 14,
       "parent": 5,
-      "skill": "PostGresSQL",
+      "skill": "PostgreSQL",
       "level": "skillful",
       "type": "database",
       "position": 14
@@ -524,6 +550,22 @@ const resume = {
       "level": "skillful",
       "type": "vm",
       "position": 41
+    },
+    {
+      "id": 42,
+      "parent": 2,
+      "skill": "FeathersJs",
+      "level": "skillfull",
+      "type": "framework",
+      "position": 42
+    },
+    {
+      "id": 43,
+      "parent": 0,
+      "skill": "Vite",
+      "level": "skillful",
+      "type": "library",
+      "position": 43
     },
   ],
   "languages": ["English", "Japanese"],
