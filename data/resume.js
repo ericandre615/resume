@@ -43,7 +43,7 @@ const resume = {
       "location": "Remote",
       "dateFrom": "Thu, 15 Apr 2021 05:00:00 GMT",
       "dateUntil": "Tue, 22 Mar 2022 05:00:00 GMT",
-      "description": "Worked as a software developer consultant. Conducted interviews for new conslutants. Provide services for clients on software projects. Left Afterman to go full time with the Cross River client.",
+      "description": "Worked as a software developer consultant. Conducted interviews for new consultants. Provide services for clients on software projects. Left Afterman to go full time with the Cross River client.",
       "skills": {
         "primary": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 13, 15],
         "secondary": [1, 2, 3, 4, 14, 18, 21, 22, 42, 43]
