@@ -17,7 +17,7 @@ Worked as a senior software engineer on various banking and fin-tech products. D
   
 **Afterman Software** \| April 2021 &mdash; March 2022 \| Remote _Consultant [Senior Software Developer]_
 
-Worked as a software developer consultant. Conducted interviews for new conslutants. Provide services for clients on software projects. Left Afterman to go full time with the Cross River client.
+Worked as a software developer consultant. Conducted interviews for new consultants. Provide services for clients on software projects. Left Afterman to go full time with the Cross River client.
   
 **InVivoLink** \| March 2016 &mdash; December 2019 \| Nashville, TN _Software Engineer_
 
@@ -43,7 +43,7 @@ CSS :large_blue_circle: :large_blue_circle: :large_blue_circle: :large_blue_circ
 Docker :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: :white_circle: Cypress.io :large_blue_circle: :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: Rust :large_blue_circle: :large_blue_circle: :white_circle: :white_circle: :white_circle:   
 DevTools :large_blue_circle: :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: Redis :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: :white_circle: Electron :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: :white_circle:   
 Nginx :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: :white_circle: Apache :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: :white_circle: Git :large_blue_circle: :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle:   
-PHP :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: :white_circle: 
+Typescript :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: :white_circle: PHP :large_blue_circle: :large_blue_circle: :large_blue_circle: :white_circle: :white_circle: 
 
 ### :notebook: Education
 
