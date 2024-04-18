@@ -32,7 +32,7 @@ const resume = {
       "dateUntil": "Wed, 25 Oct 2023 05:00:00 GMT",
       "description": "Worked as a senior software engineer on various banking and fin-tech products. Design and produce various projects and maintained existing projects using React and FeathersJS. This included various other related task including devops and package management with Docker and Github. I was asked to come on to Cross River full time through my consultant work with Afterman.",
       "skills": {
-        "primary": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 13, 15],
+        "primary": [1, 16, 2, 3, 4, 5, 6, 7, 8, 10, 11, 13, 15],
         "secondary": [1, 2, 3, 4, 14, 18, 21, 22, 42, 43]
       },
       "position": 1
@@ -45,7 +45,7 @@ const resume = {
       "dateUntil": "Tue, 22 Mar 2022 05:00:00 GMT",
       "description": "Worked as a software developer consultant. Conducted interviews for new consultants. Provide services for clients on software projects. Left Afterman to go full time with the Cross River client.",
       "skills": {
-        "primary": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 13, 15],
+        "primary": [1, 16, 2, 3, 4, 5, 6, 7, 8, 10, 11, 13, 15],
         "secondary": [1, 2, 3, 4, 14, 18, 21, 22, 42, 43]
       },
       "position": 2
@@ -214,6 +214,12 @@ const resume = {
       "skill": "Git",
       "level": "experienced",
       "position": 15
+    },
+    {
+      "id": 16,
+      "skill": "Typescript",
+      "level": "skillful",
+      "position": 16
     },
     {
       "id": 99,
